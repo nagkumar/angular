@@ -2,7 +2,7 @@ import {Component, ElementRef, ViewChild} from '@angular/core';
 import {Store} from '@ngrx/store';
 import {Customer} from '../../../models/customer';
 import {addCustomer} from '../ngrx/action/customer.actions';
-import {CustomerState} from '../ngrx/reducer/customer.reducer';
+import {CustomerState} from '../ngrx/reducer/customer.add.reducer';
 
 @Component({
   selector: 'app-customer-add',

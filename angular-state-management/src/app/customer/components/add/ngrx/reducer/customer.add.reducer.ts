@@ -11,7 +11,7 @@ export interface CustomerState {
 export const initialState: CustomerState = {
   customers: []
 };
-export const customerReducer = createReducer(
+export const customerAddReducer = createReducer(
   initialState,
   on(CustomerActions.addCustomer,
     (state: CustomerState, {customer}) =>
@@ -22,5 +22,5 @@ export const customerReducer = createReducer(
 );
 
 export function reducer(state: CustomerState | undefined, action: Action): any {
-  return customerReducer(state, action);
+  return customerAddReducer(state, action);
 }
