@@ -1,3 +1,9 @@
+import {trimString} from "src/shared/utils/string.utils";
+
 export class Customer {
-  name = '';
+  name: string = '';
+
+  constructor(aName: string) {
+    this.name = trimString(aName);
+  }
 }

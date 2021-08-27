@@ -15,9 +15,8 @@ export class CustomerAddComponent {
   constructor(private store: Store<CustomerState>) {
   }
 
-  addCustomer(customerName: string): void {
-    const customer = new Customer();
-    customer.name = customerName;
+  onAddCustomerButtonClick(aCustomerName: string): void {
+    const customer = new Customer(aCustomerName);
     this.box.nativeElement.value = ' ';
     this.store.dispatch(ADD_CUSTOMER_ACTION(customer));
   }
