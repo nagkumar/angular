@@ -1,7 +1,7 @@
 import {Component, ElementRef, ViewChild} from '@angular/core';
 import {Store} from '@ngrx/store';
 import {Customer} from '../../../models/customer';
-import {addCustomer} from '../ngrx/action/customer.actions';
+import {addCustomer} from '../ngrx/action/customer.add.actions';
 import {CustomerState} from '../ngrx/reducer/customer.add.reducer';
 
 @Component({
