@@ -1,7 +1,8 @@
 import {createAction} from '@ngrx/store';
 import {Customer} from '../../../../models/customer';
 
-export const addCustomer = createAction(
-  '[Customer] Add Customer',
+const ADD_CUSTOMER_TXT = '[Customer] Add Customer';
+export const ADD_CUSTOMER_ACTION = createAction(
+  ADD_CUSTOMER_TXT,
   (customer: Customer) => ({customer})
 );

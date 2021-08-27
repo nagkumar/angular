@@ -1,7 +1,7 @@
 import {Component, ElementRef, ViewChild} from '@angular/core';
 import {Store} from '@ngrx/store';
 import {Customer} from '../../../models/customer';
-import {addCustomer} from '../ngrx/action/customer.add.actions';
+import {ADD_CUSTOMER_ACTION} from '../ngrx/action/customer.add.actions';
 import {CustomerState} from '../ngrx/reducer/customer.add.reducer';
 
 @Component({
@@ -19,6 +19,6 @@ export class CustomerAddComponent {
     const customer = new Customer();
     customer.name = customerName;
     this.box.nativeElement.value = ' ';
-    this.store.dispatch(addCustomer(customer));
+    this.store.dispatch(ADD_CUSTOMER_ACTION(customer));
   }
 }
