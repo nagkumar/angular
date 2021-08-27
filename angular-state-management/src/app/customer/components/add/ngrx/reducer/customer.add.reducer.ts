@@ -1,6 +1,6 @@
 import {Action, createReducer, on} from '@ngrx/store';
-import * as CustomerActions from '../action/customer.add.actions';
-import {Customer} from '../../../../models/customer';
+import * as CustomerActions from 'src/app/customer/components/add/ngrx/action/customer.add.actions';
+import {Customer} from 'src/app/customer/models/customer';
 
 export const customerFeatureKey = 'customer';
 
