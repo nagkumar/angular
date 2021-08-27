@@ -1,8 +1,8 @@
 import {Component, ElementRef, ViewChild} from '@angular/core';
 import {Store} from '@ngrx/store';
-import {Customer} from '../../../models/customer';
-import {ADD_CUSTOMER_ACTION} from '../ngrx/action/customer.add.actions';
-import {CustomerState} from '../ngrx/reducer/customer.add.reducer';
+import {Customer} from 'src/app/customer/models/customer';
+import {ADD_CUSTOMER_ACTION} from 'src/app/customer/components/add/ngrx/action/customer.add.actions';
+import {CustomerState} from 'src/app/customer/components/add/ngrx/reducer/customer.add.reducer';
 
 @Component({
   selector: 'app-customer-add',
