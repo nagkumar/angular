@@ -23,3 +23,5 @@ export function trimString(aString: string): string {
     return result;
   }
 }
+
+export const EMPTY_STRING = '';
