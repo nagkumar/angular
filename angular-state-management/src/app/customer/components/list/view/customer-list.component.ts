@@ -3,7 +3,7 @@ import {Observable} from 'rxjs';
 import {Customer} from 'src/app/customer/models/customer';
 import {select, Store} from '@ngrx/store';
 import {selectCustomers} from 'src/app/customer/components/add/ngrx/selector/customer.add.selectors';
-import {CustomerState} from 'src/app/customer/components/add/ngrx/reducer/customer.add.reducer';
+import {NGMCustomerState} from "../../add/ngrx/reducer/NGMCustomerState";
 
 @Component({
   selector: 'app-customer-list',
@@ -13,7 +13,7 @@ import {CustomerState} from 'src/app/customer/components/add/ngrx/reducer/custom
 export class CustomerListComponent {
   customers$: Observable<Customer[]>;
 
-  constructor(private store: Store<CustomerState>) {
+  constructor(private store: Store<NGMCustomerState>) {
     this.customers$ = this.store.pipe(select(selectCustomers));
   }
 }

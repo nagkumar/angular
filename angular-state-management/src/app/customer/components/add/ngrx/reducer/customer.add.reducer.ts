@@ -1,21 +1,13 @@
 import {Action, createReducer, on} from '@ngrx/store';
 import * as CustomerActions from 'src/app/customer/components/add/ngrx/action/customer.add.actions';
-import {Customer} from 'src/app/customer/models/customer';
+import {initialState, NGMCustomerState} from "src/app/customer/components/add/ngrx/reducer/NGMCustomerState";
 
 export const customerFeatureKey = 'customer';
-
-export interface CustomerState {
-  customers: Customer[];
-}
-
-export const initialState: CustomerState = {
-  customers: []
-};
 
 export const customerAddReducer = createReducer(
   initialState,
   on(CustomerActions.ADD_CUSTOMER_ACTION,
-    (aState: CustomerState, {customer}) =>
+    (aState: NGMCustomerState, {customer}) =>
       (
         {
           ...aState,
@@ -25,6 +17,6 @@ export const customerAddReducer = createReducer(
   )
 );
 
-export function reducer(aState: CustomerState | undefined, aAction: Action): any {
+export function reducer(aState: NGMCustomerState | undefined, aAction: Action): any {
   return customerAddReducer(aState, aAction);
 }

@@ -1,4 +1,5 @@
-import {initialState, reducer} from 'customer.add.reducer';
+import {reducer} from 'src/app/customer/components/add/ngrx/reducer/customer.add.reducer';
+import {initialState} from 'src/app/customer/components/add/ngrx/reducer/NGMCustomerState';
 
 describe('Customer Reducer', () => {
   describe('an unknown action', () => {

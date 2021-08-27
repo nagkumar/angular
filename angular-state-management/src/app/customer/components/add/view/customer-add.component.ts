@@ -2,7 +2,7 @@ import {Component, ElementRef, ViewChild} from '@angular/core';
 import {Store} from '@ngrx/store';
 import {Customer} from 'src/app/customer/models/customer';
 import {ADD_CUSTOMER_ACTION} from 'src/app/customer/components/add/ngrx/action/customer.add.actions';
-import {CustomerState} from 'src/app/customer/components/add/ngrx/reducer/customer.add.reducer';
+import {NGMCustomerState} from "src/app/customer/components/add/ngrx/reducer/NGMCustomerState";
 
 @Component({
   selector: 'app-customer-add',
@@ -12,7 +12,7 @@ import {CustomerState} from 'src/app/customer/components/add/ngrx/reducer/custom
 export class CustomerAddComponent {
   @ViewChild('box') box: ElementRef;
 
-  constructor(private store: Store<CustomerState>) {
+  constructor(private store: Store<NGMCustomerState>) {
   }
 
   onAddCustomerButtonClick(aCustomerName: string): void {

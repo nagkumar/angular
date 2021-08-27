@@ -1,4 +1,4 @@
-import * as fromCustomer from 'customer.add.actions';
+import * as fromCustomer from 'src/app/customer/components/add/ngrx/action/customer.add.actions';
 
 describe('loadCustomers', () => {
   it('should return an action', () => {
