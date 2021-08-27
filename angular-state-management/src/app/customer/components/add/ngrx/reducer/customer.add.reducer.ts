@@ -11,16 +11,20 @@ export interface CustomerState {
 export const initialState: CustomerState = {
   customers: []
 };
+
 export const customerAddReducer = createReducer(
   initialState,
   on(CustomerActions.ADD_CUSTOMER_ACTION,
-    (state: CustomerState, {customer}) =>
-      ({
-        ...state,
-        customers: [...state.customers, customer]
-      }))
+    (aState: CustomerState, {customer}) =>
+      (
+        {
+          ...aState,
+          customers: [...aState.customers, customer]
+        }
+      )
+  )
 );
 
-export function reducer(state: CustomerState | undefined, action: Action): any {
-  return customerAddReducer(state, action);
+export function reducer(aState: CustomerState | undefined, aAction: Action): any {
+  return customerAddReducer(aState, aAction);
 }

@@ -1,4 +1,4 @@
-export function isEmptyString(aString) {
+export function isEmptyString(aString): boolean {
   switch (aString) {
     case "":
     case 0:
@@ -12,7 +12,7 @@ export function isEmptyString(aString) {
   }
 }
 
-export function trimString(aString: string) {
+export function trimString(aString: string): string {
   if (isEmptyString(aString)) {
     throw "Invalid String:" + aString;
   } else {
