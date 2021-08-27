@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {Observable} from 'rxjs';
-import {Customer} from '../../../models/customer';
+import {Customer} from '../../models/customer';
 import {select, Store} from '@ngrx/store';
 import {selectCustomers} from '../../add/ngrx/selector/customer.selectors';
 import {CustomerState} from '../../add/ngrx/reducer/customer.reducer';
