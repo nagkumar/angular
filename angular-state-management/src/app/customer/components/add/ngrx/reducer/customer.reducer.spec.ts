@@ -1,4 +1,4 @@
-import { reducer, initialState } from './customer.reducer';
+import {initialState, reducer} from './customer.reducer';
 
 describe('Customer Reducer', () => {
   describe('an unknown action', () => {
