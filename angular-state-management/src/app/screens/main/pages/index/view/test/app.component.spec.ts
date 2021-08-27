@@ -1,5 +1,5 @@
 import {TestBed} from '@angular/core/testing';
-import {AppComponent} from 'src/app/screens/root/pages/index/view/app.component';
+import {AppComponent} from 'src/app/screens/main/pages/index/view/app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {

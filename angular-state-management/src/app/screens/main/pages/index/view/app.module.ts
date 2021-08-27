@@ -1,6 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {AppComponent} from 'src/app/screens/root/pages/index/view/app.component';
+import {AppComponent} from 'src/app/screens/main/pages/index/view/app.component';
 import {StoreModule} from '@ngrx/store';
 import {metaReducers, reducers} from 'src/app/reducers';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
