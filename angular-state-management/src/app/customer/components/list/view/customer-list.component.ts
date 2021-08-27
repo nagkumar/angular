@@ -7,8 +7,8 @@ import {CustomerState} from 'src/app/customer/components/add/ngrx/reducer/custom
 
 @Component({
   selector: 'app-customer-list',
-  templateUrl: './customer-list.component.html',
-  styleUrls: ['./customer-list.component.scss']
+  templateUrl: 'customer-list.component.html',
+  styleUrls: ['customer-list.component.scss']
 })
 export class CustomerListComponent {
   customers$: Observable<Customer[]>;

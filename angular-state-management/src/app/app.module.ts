@@ -1,11 +1,11 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {AppComponent} from './app.component';
+import {AppComponent} from 'src/app/app.component';
 import {StoreModule} from '@ngrx/store';
-import {metaReducers, reducers} from './reducers';
+import {metaReducers, reducers} from 'src/app/reducers';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
-import {environment} from '../environments/environment';
-import {CustomerModule} from './customer/customer.module';
+import {environment} from 'src/environments/environment';
+import {CustomerModule} from 'src/app/customer/customer.module';
 
 @NgModule({
   declarations: [
