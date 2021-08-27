@@ -16,8 +16,7 @@ export class CustomerAddComponent {
   }
 
   onAddCustomerButtonClick(aCustomerName: string): void {
-    const customer = new Customer(aCustomerName);
+    this.store.dispatch(ADD_CUSTOMER_ACTION(new Customer(aCustomerName)));
     this.box.nativeElement.value = ' ';
-    this.store.dispatch(ADD_CUSTOMER_ACTION(customer));
   }
 }
