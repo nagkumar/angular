@@ -1,9 +1,9 @@
 import {Component} from '@angular/core';
 import {Observable} from 'rxjs';
-import {Customer} from '../../../models/customer';
+import {Customer} from 'src/app/customer/models/customer';
 import {select, Store} from '@ngrx/store';
-import {selectCustomers} from '../../add/ngrx/selector/customer.add.selectors';
-import {CustomerState} from '../../add/ngrx/reducer/customer.add.reducer';
+import {selectCustomers} from 'src/app/customer/components/add/ngrx/selector/customer.add.selectors';
+import {CustomerState} from 'src/app/customer/components/add/ngrx/reducer/customer.add.reducer';
 
 @Component({
   selector: 'app-customer-list',
