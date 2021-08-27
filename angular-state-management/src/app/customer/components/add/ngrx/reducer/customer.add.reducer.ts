@@ -4,7 +4,7 @@ import {initialState, NGMCustomerState} from "src/app/customer/components/add/ng
 
 export const customerFeatureKey = 'customer';
 
-export const customerAddReducer = createReducer(
+const customerAddReducer = createReducer(
   initialState,
   on(CustomerActions.ADD_CUSTOMER_ACTION,
     (aState: NGMCustomerState, {customer}) =>
