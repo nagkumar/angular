@@ -1,6 +1,6 @@
 import {createFeatureSelector, createSelector} from '@ngrx/store';
 import * as fromCustomer from 'src/app/customer/components/add/ngrx/reducer/customer.add.reducer';
-import {NGMCustomerState} from "../reducer/NGMCustomerState";
+import {NGMCustomerState} from "src/app/customer/components/add/ngrx/reducer/NGMCustomerState";
 
 export const selectCustomerState = createFeatureSelector<NGMCustomerState>(
   fromCustomer.customerFeatureKey,

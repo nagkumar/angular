@@ -3,7 +3,7 @@ import {Observable} from 'rxjs';
 import {Customer} from 'src/app/customer/models/customer';
 import {select, Store} from '@ngrx/store';
 import {selectCustomers} from 'src/app/customer/components/add/ngrx/selector/customer.add.selectors';
-import {NGMCustomerState} from "../../add/ngrx/reducer/NGMCustomerState";
+import {NGMCustomerState} from "src/app/customer/components/add/ngrx/reducer/NGMCustomerState";
 
 @Component({
   selector: 'app-customer-list',
