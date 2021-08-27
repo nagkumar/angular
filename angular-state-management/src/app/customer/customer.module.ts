@@ -1,9 +1,9 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {CustomerListComponent} from './list/view/customer-list.component';
-import {CustomerAddComponent} from './add/view/customer-add.component';
+import {CustomerListComponent} from './components/list/view/customer-list.component';
+import {CustomerAddComponent} from './components/add/view/customer-add.component';
 import {StoreModule} from '@ngrx/store';
-import {customerFeatureKey, reducer} from './add/ngrx/reducer/customer.reducer';
+import {customerFeatureKey, reducer} from './components/add/ngrx/reducer/customer.reducer';
 
 @NgModule({
   declarations: [
