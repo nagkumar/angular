@@ -2,7 +2,7 @@ import {Action, createReducer, on} from '@ngrx/store';
 import * as CustomerActions from 'src/app/screens/customer/components/add/ngrx/action/customer.add.actions';
 import {initialState, NGMCustomerState} from "src/app/screens/customer/components/add/ngrx/reducer/NGMCustomerState";
 
-export const customerFeatureKey = 'customer';
+export const customerAddKey = 'customerAdd';
 
 const customerAddReducer = createReducer(
   initialState,
@@ -17,6 +17,6 @@ const customerAddReducer = createReducer(
   )
 );
 
-export function reducer(aState: NGMCustomerState | undefined, aAction: Action): any {
+export function reducer4CustomerAdd(aState: NGMCustomerState | undefined, aAction: Action): any {
   return customerAddReducer(aState, aAction);
 }

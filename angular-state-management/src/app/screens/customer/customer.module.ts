@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {CustomerListComponent} from 'src/app/screens/customer/components/list/view/customer-list.component';
 import {CustomerAddComponent} from 'src/app/screens/customer/components/add/view/customer-add.component';
 import {StoreModule} from '@ngrx/store';
-import {customerFeatureKey, reducer} from 'src/app/screens/customer/components/add/ngrx/reducer/customer.add.reducer';
+import {customerAddKey, reducer4CustomerAdd} from 'src/app/screens/customer/components/add/ngrx/reducer/customer.add.reducer';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import {customerFeatureKey, reducer} from 'src/app/screens/customer/components/a
   ],
   imports: [
     CommonModule,
-    StoreModule.forFeature(customerFeatureKey, reducer),
+    StoreModule.forFeature(customerAddKey, reducer4CustomerAdd),
   ],
   exports: [
     CustomerListComponent,
