@@ -14,11 +14,11 @@ export function isEmptyString(aString): boolean {
 
 export function trimString(aString: string): string {
   if (isEmptyString(aString)) {
-    throw "Invalid String:" + aString;
+    throw 'Invalid String:' + aString;
   } else {
     let result = aString.trim();
     if (result.length == 0) {
-      throw "Empty String after trimming";
+      throw 'Empty String after trimming';
     }
     return result;
   }
