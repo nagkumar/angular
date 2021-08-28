@@ -11,5 +11,5 @@ const ROOT_INDEX_CSS = 'app.component.scss';
   styleUrls: [ROOT_INDEX_CSS]
 })
 export class AppComponent {
-  title = 'angular-state-management nag';
+  title = 'angular-state-management';
 }

@@ -6,6 +6,8 @@ import {metaReducers, reducers} from 'src/app/reducers';
 import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {environment} from 'src/environments/environment';
 import {CustomerModule} from 'src/app/screens/customer/customer.module';
+import {LoggerModule, NgxLoggerLevel} from "ngx-logger";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -15,6 +17,11 @@ import {CustomerModule} from 'src/app/screens/customer/customer.module';
     BrowserModule,
     StoreModule.forRoot(reducers, {metaReducers}),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
+    [HttpClientModule, LoggerModule.forRoot({
+      serverLoggingUrl: '/api/logs',
+      level: NgxLoggerLevel.DEBUG,
+      serverLogLevel: NgxLoggerLevel.ERROR
+    })],
     CustomerModule
   ],
   providers: [],
