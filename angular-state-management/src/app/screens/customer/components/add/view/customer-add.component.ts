@@ -5,6 +5,8 @@ import {ADD_CUSTOMER_ACTION} from 'src/app/screens/customer/components/add/ngrx/
 import {NGMCustomerState} from "src/app/screens/customer/components/add/ngrx/reducer/NGMCustomerState";
 import {NGXLogger} from 'ngx-logger';
 
+const CUSTOMER_NAME_TBOX = 'box';
+
 @Component({
   selector: 'app-customer-add',
   templateUrl: 'customer-add.component.html',
@@ -12,7 +14,7 @@ import {NGXLogger} from 'ngx-logger';
 })
 
 export class CustomerAddComponent {
-  @ViewChild('box') box: ElementRef;
+  @ViewChild(CUSTOMER_NAME_TBOX) box: ElementRef;
 
   constructor(private store: Store<NGMCustomerState>, private logger: NGXLogger) {
   }
