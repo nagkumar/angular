@@ -1,0 +1,15 @@
+ng build --configuration development
+ng serve --configuration production
+ng serve --configuration development
+npm run-script build
+
+npm -g i angular-cli-ghpages
+ng build --configuration production --base-href "https://nagkumar.github.io/angular-coffee-shop/"
+ngh angular-cli-ghpages —-dir=dist/angular-coffee-shop
+
+//not-working
+npm run deploy i.e. gh-pages -d build
+
+https://github.com/nagkumar/angular-coffee-shop/tree/gh-pages
+https://nagkumar.github.io/angular-coffee-shop/
+

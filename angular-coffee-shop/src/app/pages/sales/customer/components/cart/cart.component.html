@@ -1,0 +1,73 @@
+<div class="text-center">
+    <h4>Your Order</h4>
+</div>
+<table class="table mt-3">
+    <thead>
+    <tr>
+	<th>S.No</th>
+	<th>Name</th>
+	<th>Price</th>
+	<th>Tax (%)</th>
+	<th>Discount</th>
+	<th>Quantity</th>
+	<th>Total Cost</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let orderProductInfo of inAddProductInfoOnChangeData; let orderIndex = index">
+	<td class="text-center" style="width: 15%">{{ orderIndex + 1 }}</td>
+	<td class="text-center font-weight-bold" style="width: 40%">{{ orderProductInfo.singleItem.name }}</td>
+	<td class="text-center" style="width: 30%">{{ orderProductInfo.singleItem.price }}</td>
+	<td class="text-center" style="width: 20%">{{ orderProductInfo.itemMetaInfo.getTax() }}</td>
+	<td class="text-center" style="width: 20%">{{ orderProductInfo.itemMetaInfo.getDiscount() + "\n" + orderProductInfo.itemMetaInfo.discount.getUnit() }}  </td>
+	<td class="text-center" style="width: 20%">{{ orderProductInfo.cartInfo.quantity }}</td>
+	<td class="text-center" style="width: 20%">{{ orderProductInfo.getQuantityTotalPrice() }}</td>
+	<td class="text-center" style="width: 15%">
+	    <a (click)="onDeleteItem(orderIndex)" class="delete-icon">
+		<i class="fas fa-times"></i>
+	    </a>
+	</td>
+    </tr>
+    <tr *ngIf="inAddProductInfoOnChangeData.length === 0">
+	<td class="text-center" colspan="4">No Order</td>
+    </tr>
+    <tr class="row mt-3">
+    </tr>
+    <tr>
+	<td class="text-center font-weight-bold" colspan="3">Total</td>
+	<td class="text-center font-weight-bold">{{ cartTotalCost() }}</td>
+    </tr>
+    <tr>
+	<td class="text-center font-weight-bold" colspan="3">Items Cost</td>
+	<td class="text-center font-weight-bold">{{ totalCartItemsCosts }}</td>
+    </tr>
+    <tr>
+	<td class="text-center font-weight-bold" colspan="3">GST Taxes</td>
+	<td class="text-center font-weight-bold">{{ totalCartTaxes}}</td>
+    </tr>
+    <tr class="row mt-3">
+    </tr>
+    <tr>
+	<td class="text-center font-weight-bold" colspan="3">Make Payment</td>
+	<td class="text-center font-weight-bold">
+	    <button (click)="doPayment(paymentConfirmTemplate,$event)" [disabled]="payButtonDisabled" class="btn btn-primary" type="button">Pay</button>
+	    <br><br>
+	    <ng-template #paymentConfirmTemplate>
+		<div>
+		    <div class="modal-body text-center">
+			<p>Are You Sure You want to Pay an amount of INR : {{this.totalCartPayCost}} </p>
+			<button (click)="decline($event)" class="btn btn-default" type="button">No</button>
+			<button (click)="confirm($event)" autofocus class="btn btn-primary" type="button">Yes</button>
+			<br/>
+			<p class="card card-block card-header">{{message}}</p>
+		    </div>
+		    <div *ngIf="networkActivity" class="spinner-border" role="status">
+			<span class="sr-only">Loading...</span>
+		    </div>
+		</div>
+	    </ng-template>
+	    <pre>{{this.message}} </pre>
+	</td>
+    </tr>
+    </tbody>
+</table>

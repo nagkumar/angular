@@ -1,0 +1,37 @@
+.card {
+    border: none;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.32);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 500ms all;
+
+    &:hover {
+	transform: scale(1.03);
+    }
+
+    .recommend-tag {
+	position: absolute;
+	width: 120px;
+	text-align: center;
+	top: 20px;
+	left: -30px;
+	background: red;
+	color: white;
+	font-weight: bold;
+	transform: rotate(-45deg);
+	font-size: 11px;
+    }
+
+    .price {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 10px 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border-top-left-radius: 5px;
+	font-size: 20px;
+    }
+}

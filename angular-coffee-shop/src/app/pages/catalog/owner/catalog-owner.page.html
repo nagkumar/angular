@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+	<div class="col-md-6">
+	    <owner-table (outEditItemEEmitter)="pageMethodReceiveEditItem($event)"></owner-table>
+	</div>
+	<div class="col-md-6">
+	    <owner-edit-form [inEditItemOnChangeData]="pageVarToEditItem"></owner-edit-form>
+	</div>
+    </div>
+</div>

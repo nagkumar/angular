@@ -1,0 +1,30 @@
+<table class="table">
+    <thead>
+    <tr>
+	<th>Image</th>
+	<th>Name</th>
+	<th>Price</th>
+	<th>Tax (%)</th>
+	<th>Discount (%)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let productInfo of productsService.fetchedProductInfoList; let listIndex = index">
+	<td class="v-middle">
+	    <img [src]="productInfo.singleItem.image" alt="coffee" height="60">
+	</td>
+	<td class="v-middle">{{ productInfo.singleItem.name }}</td>
+	<td class="v-middle">{{ productInfo.singleItem.price }}</td>
+	<td class="v-middle">{{ productInfo.itemMetaInfo.getTax() }}</td>
+	<td class="v-middle">{{ productInfo.itemMetaInfo.getDiscount() }}</td>
+	<td class="v-middle">
+	    <button (click)="onEditItem(productInfo, listIndex)" class="btn btn-warning btn-sm mr-3">
+		<i class="fas fa-edit"></i>
+	    </button>
+	    <button (click)="onDeleteItem(listIndex)" class="btn btn-danger btn-sm">
+		<i class="fas fa-trash"></i>
+	    </button>
+	</td>
+    </tr>
+    </tbody>
+</table>

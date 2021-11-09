@@ -1,0 +1,42 @@
+<div class="form-group">
+    <label>Name</label>
+    <input [(ngModel)]="formProductInfo.singleItem.name" class="form-control" placeholder="Name" type="text">
+</div>
+<div class="form-group">
+    <label>Price</label>
+    <input [(ngModel)]="formProductInfo.singleItem.price" class="form-control" placeholder="Price" type="number">
+</div>
+<div class="form-group">
+    <label>Image</label>
+    <input [(ngModel)]="formProductInfo.singleItem.image" class="form-control" placeholder="http://image-url.jpg" type="text">
+</div>
+<div class="form-group">
+    <label>Recommend?</label>
+    <input (ngModelChange)="formProductInfo.itemMetaInfo.setRecommended($event)" [ngModel]="formProductInfo.itemMetaInfo.isRecommended()" class="form-control" placeholder="false"
+	   type="text">
+</div>
+<div class="form-group">
+    <label>Tax</label>
+    <input (ngModelChange)="formProductInfo.itemMetaInfo.setTax($event)" [ngModel]="formProductInfo.itemMetaInfo.getTax()" class="form-control" placeholder="18%" type="text">
+</div>
+<div class="form-group">
+    <label>Discount</label>
+    <input (ngModelChange)="formProductInfo.itemMetaInfo.setDiscount($event)" [ngModel]="formProductInfo.itemMetaInfo.getDiscount()" class="form-control" placeholder="5%"
+	   type="text">
+</div>
+<div class="text-right">
+    <button (click)="clear()" class="btn btn-outline-secondary me-md-2">
+	<i class="fas fa-times mr-2"></i>
+	Clear
+    </button>
+
+    <button (click)="onAddNew()" *ngIf="(inEditItemOnChangeData==null)" class="btn btn-success">
+	<i class="fas fa-plus mr-2"></i>
+	Add
+    </button>
+
+    <button (click)="onEditedSave()" *ngIf="(inEditItemOnChangeData!=null)" class="btn btn-warning">
+	<i class="fas fa-save mr-2"></i>
+	Save Edit
+    </button>
+</div>

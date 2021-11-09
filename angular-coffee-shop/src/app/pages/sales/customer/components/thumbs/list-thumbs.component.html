@@ -1,0 +1,13 @@
+<div class="row">
+    <div *ngFor="let productInfo of productsService.fetchedProductInfoList" class="col-md-6 mb-3">
+	<div (click)="addProductInfo2Cart(productInfo)" class="card">
+	    <img [src]="productInfo.singleItem.image" alt="coffeeItem" class="card-img-top">
+	    <div *ngIf="productInfo.itemMetaInfo.isRecommended()" class="recommend-tag">
+		Recommend
+	    </div>
+	    <div class="price">
+		{{ productInfo.singleItem.price }}
+	    </div>
+	</div>
+    </div>
+</div>
