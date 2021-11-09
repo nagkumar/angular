@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/angular-coffee-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/angular-coffee-shop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/test/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +211,8 @@
       <workItem from="1636446038135" duration="442000" />
       <workItem from="1636452581767" duration="457000" />
       <workItem from="1636453054224" duration="677000" />
-      <workItem from="1636453754371" duration="79000" />
+      <workItem from="1636453754371" duration="971000" />
+      <workItem from="1636455012280" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
