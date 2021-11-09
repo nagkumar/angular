@@ -8,7 +8,8 @@
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
         "deploy": "ngh angular-cli-ghpages —-dir=dist/angular-coffee-shop",
-        "lint": "ng lint"
+        "lint": "ng lint",
+        "testCafe": "testcafe chrome index.js"
     },
     "browserslist": [
         "defaults",
@@ -34,6 +35,8 @@
         "node-gyp": "^8.3.0",
         "npm-install-peers": "^1.2.2",
         "npm-normalize-package-bin": "^1.0.1",
+        "testcafe": "^1.17.0",
+        "testcafe-angular-selectors": "^0.4.1",
         "tslib": "^2.3.1",
         "uuid": "^8.3.2",
         "zone.js": "~0.11.4"
