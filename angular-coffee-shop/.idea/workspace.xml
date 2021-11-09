@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.78220856" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/catalog/owner/catalog-owner.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/catalog/owner/catalog-owner.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/main/app.main.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/main/app.main.page.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1zWNaLcvgCtYXQfJK7PFOx8nTzw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.32" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="G:\DWork\angular\angular-coffee-shop\node_modules\typescript\lib" />
+    <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DWork\CShop\angular-coffee-shop\" />
+      <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\business\offers\extra" />
+      <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\business\offers" />
+      <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\services\products" />
+      <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\services\products\mock" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\DWork\angular-coffee-shop\src\test" />
+      <recent name="G:\DWork\angular-coffee-shop\src" />
+      <recent name="G:\DWork\angular-coffee-shop\src\app" />
+      <recent name="G:\DWork\angular-coffee-shop\src\app\orm\models\business\gov\taxes" />
+      <recent name="G:\DWork\angular-coffee-shop\e2e\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Angular JS Debug">
+    <configuration name="Tests (coffee-shop)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/src/test/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (coffee-shop-e2e)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Karma.Tests (coffee-shop)" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests (coffee-shop-e2e)" />
+      <item itemvalue="JavaScript Debug.Angular JS Debug" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="" />
+      <created>1634259949245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634259949245</updated>
+      <workItem from="1634259951530" duration="4036000" />
+      <workItem from="1634264038495" duration="17000" />
+      <workItem from="1634270920316" duration="296000" />
+      <workItem from="1634271221700" duration="1849000" />
+      <workItem from="1634273742506" duration="372000" />
+      <workItem from="1634274119775" duration="55000" />
+      <workItem from="1634274177409" duration="13044000" />
+      <workItem from="1634314198061" duration="1187000" />
+      <workItem from="1634343420354" duration="5738000" />
+      <workItem from="1634370024695" duration="6865000" />
+      <workItem from="1634390720431" duration="3211000" />
+      <workItem from="1634457780495" duration="10367000" />
+      <workItem from="1634470279013" duration="1467000" />
+      <workItem from="1634474559639" duration="4073000" />
+      <workItem from="1634523306143" duration="582000" />
+      <workItem from="1634523917066" duration="2080000" />
+      <workItem from="1634526131938" duration="901000" />
+      <workItem from="1634527045026" duration="133000" />
+      <workItem from="1634527182144" duration="1326000" />
+      <workItem from="1634530071944" duration="5835000" />
+      <workItem from="1634537841292" duration="6788000" />
+      <workItem from="1634549323842" duration="1732000" />
+      <workItem from="1634554161046" duration="269000" />
+      <workItem from="1634558143977" duration="1259000" />
+      <workItem from="1634559420645" duration="120000" />
+      <workItem from="1634559544744" duration="755000" />
+      <workItem from="1634560362574" duration="2402000" />
+      <workItem from="1634567246750" duration="2635000" />
+      <workItem from="1634602141272" duration="3198000" />
+      <workItem from="1634605440054" duration="1480000" />
+      <workItem from="1634617150045" duration="945000" />
+      <workItem from="1634630835573" duration="47000" />
+      <workItem from="1634630921099" duration="957000" />
+      <workItem from="1634635590985" duration="1130000" />
+      <workItem from="1634636816001" duration="439000" />
+      <workItem from="1634646374608" duration="13000" />
+      <workItem from="1634646390546" duration="5540000" />
+      <workItem from="1634655571507" duration="972000" />
+      <workItem from="1634695820356" duration="488000" />
+      <workItem from="1634705695888" duration="846000" />
+      <workItem from="1634794811386" duration="420000" />
+      <workItem from="1634795518478" duration="4677000" />
+      <workItem from="1634800245816" duration="898000" />
+      <workItem from="1634801622503" duration="3378000" />
+      <workItem from="1634805248924" duration="16000" />
+      <workItem from="1634805619378" duration="16000" />
+      <workItem from="1634805639101" duration="2000" />
+      <workItem from="1634902928146" duration="583000" />
+      <workItem from="1634903520624" duration="23000" />
+      <workItem from="1635077547595" duration="93000" />
+      <workItem from="1635077896231" duration="76000" />
+      <workItem from="1635077976606" duration="599000" />
+      <workItem from="1635127268506" duration="832000" />
+      <workItem from="1635842181181" duration="2041000" />
+      <workItem from="1635847640230" duration="4391000" />
+      <workItem from="1635853570509" duration="3235000" />
+      <workItem from="1635861117036" duration="758000" />
+      <workItem from="1635861897571" duration="51000" />
+      <workItem from="1635861985544" duration="1461000" />
+      <workItem from="1635863465696" duration="64000" />
+      <workItem from="1635927900534" duration="4666000" />
+      <workItem from="1635934161740" duration="9188000" />
+      <workItem from="1635943727711" duration="713000" />
+      <workItem from="1635944449584" duration="949000" />
+      <workItem from="1636008296162" duration="2720000" />
+      <workItem from="1636011214367" duration="351000" />
+      <workItem from="1636441936743" duration="103000" />
+      <workItem from="1636442247518" duration="408000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <created>1635858192842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635858192842</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="f78b9924-8272-4b84-a648-229d57e9821d">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:G:/DWork/angular-coffee-shop/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f78b9924-8272-4b84-a648-229d57e9821d" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
