@@ -10,15 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/cypress/fixtures/example.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +218,7 @@
       <workItem from="1636523019344" duration="968000" />
       <workItem from="1636523999270" duration="1005000" />
       <workItem from="1636525184343" duration="528000" />
-      <workItem from="1636526791430" duration="2310000" />
+      <workItem from="1636526791430" duration="2519000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
