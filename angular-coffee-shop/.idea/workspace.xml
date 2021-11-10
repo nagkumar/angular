@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/angular-coffee-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -63,8 +65,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.17.32" />
+    <property name="javascript.nodejs.core.library.configured.version" value="17.0.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.7" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -73,10 +75,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
     <property name="ts.external.directory.path" value="G:\DWork\angular\angular-coffee-shop\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -97,8 +100,72 @@
       <recent name="G:\DWork\angular-coffee-shop\e2e\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Angular JS Debug">
-    <configuration name="Tests (coffee-shop)" type="JavaScriptTestRunnerKarma">
+  <component name="RunManager" selected="Cypress.cypress">
+    <configuration name="cypress" type="CypressConfigurationType" factoryName="Cypress" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="true" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="myCypressRunSettings">
+        <CypressRunSettings>
+          <option name="configKind" value="JS" />
+          <option name="allNames" />
+          <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
+          <option name="specFile" />
+          <option name="testName" />
+          <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
+          <option name="envs">
+            <map />
+          </option>
+          <option name="additionalParams" value="-b chrome --headless " />
+          <option name="browser" value="CHROME" />
+          <option name="passParentEnvs" value="true" />
+          <option name="nodeJsRef" value="project" />
+          <option name="npmRef" value="Project" />
+          <option name="kind" value="DIRECTORY" />
+          <option name="interactive" value="false" />
+          <option name="browserPort" value="0" />
+          <option name="pageAutoSelection" value="true" />
+          <option name="defaultScript" value="true" />
+          <option name="recorderScript" value="" />
+          <option name="focusToIde" value="true" />
+          <option name="generateComment" value="true" />
+          <option name="insertAtCursor" value="false" />
+        </CypressRunSettings>
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="-b chrome --headless " />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="G:\DWork\angular\angular-coffee-shop\cypress" />
+      <option name="configKind" value="JS" />
+      <option name="allNames" />
+      <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
+      <option name="specFile" />
+      <option name="testName" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="additionalParams" value="-b chrome --headless " />
+      <option name="browser" value="CHROME" />
+      <option name="passParentEnvs" value="true" />
+      <option name="nodeJsRef" value="project" />
+      <option name="npmRef" value="Project" />
+      <option name="kind" value="DIRECTORY" />
+      <option name="interactive" value="false" />
+      <option name="browserPort" value="0" />
+      <option name="pageAutoSelection" value="true" />
+      <option name="defaultScript" value="true" />
+      <option name="recorderScript" value="" />
+      <option name="focusToIde" value="true" />
+      <option name="generateComment" value="true" />
+      <option name="insertAtCursor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="KarmaTests (coffee-shop)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/src/test/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$" />
@@ -106,13 +173,12 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="E2E Tests (coffee-shop-e2e)" type="JavaScriptTestRunnerProtractor">
-      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
-      <node-interpreter value="project" />
-      <protractor-package value="" />
-      <protractor-options value="" />
-      <envs />
-      <scope-kind value="ALL" />
+    <configuration name="TestCafe" type="JavaScriptTestRunnerTestCafe">
+      <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerTestCafe">
+      <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
       <method v="2" />
     </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
@@ -126,9 +192,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Karma.Tests (coffee-shop)" />
+      <item itemvalue="Cypress.cypress" />
+      <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="npm.Angular CLI Server" />
-      <item itemvalue="Protractor.E2E Tests (coffee-shop-e2e)" />
+      <item itemvalue="TestCafe.TestCafe" />
       <item itemvalue="JavaScript Debug.Angular JS Debug" />
     </list>
   </component>
@@ -218,7 +285,17 @@
       <workItem from="1636523019344" duration="968000" />
       <workItem from="1636523999270" duration="1005000" />
       <workItem from="1636525184343" duration="528000" />
-      <workItem from="1636526791430" duration="2519000" />
+      <workItem from="1636526791430" duration="2678000" />
+      <workItem from="1636537213152" duration="166000" />
+      <workItem from="1636537968134" duration="156000" />
+      <workItem from="1636538157387" duration="198000" />
+      <workItem from="1636538361426" duration="5000" />
+      <workItem from="1636538681257" duration="568000" />
+      <workItem from="1636539259275" duration="152000" />
+      <workItem from="1636539423037" duration="96000" />
+      <workItem from="1636539522794" duration="313000" />
+      <workItem from="1636539849787" duration="151000" />
+      <workItem from="1636540005894" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
