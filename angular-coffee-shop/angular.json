@@ -108,7 +108,7 @@
           }
         },
         "cypress-run": {
-          "builder": "@briebug/cypress-schematic:cypress",
+          "builder": "@cypress/schematic:cypress",
           "options": {
             "devServerTarget": "angular-coffee-shop:serve"
           },
@@ -119,20 +119,14 @@
           }
         },
         "cypress-open": {
-          "builder": "@briebug/cypress-schematic:cypress",
+          "builder": "@cypress/schematic:cypress",
           "options": {
-            "devServerTarget": "angular-coffee-shop:serve",
             "watch": true,
             "headless": false
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "angular-coffee-shop:serve:production"
-            }
           }
         },
         "e2e": {
-          "builder": "@briebug/cypress-schematic:cypress",
+          "builder": "@cypress/schematic:cypress",
           "options": {
             "devServerTarget": "angular-coffee-shop:serve",
             "watch": true,
