@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/videos/spec.ts.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +263,7 @@
       <workItem from="1636546610131" duration="23000" />
       <workItem from="1636546654055" duration="441000" />
       <workItem from="1636547172848" duration="1527000" />
-      <workItem from="1636601008479" duration="3519000" />
+      <workItem from="1636601008479" duration="5916000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
