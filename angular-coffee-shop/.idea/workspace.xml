@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,45 +92,22 @@
       <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\services\products\mock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Data\enterprise\users\tejasoft\active\work\products\fnd\web\node\bu\os\win\bat" />
       <recent name="G:\DWork\angular-coffee-shop\src\test" />
       <recent name="G:\DWork\angular-coffee-shop\src" />
       <recent name="G:\DWork\angular-coffee-shop\src\app" />
       <recent name="G:\DWork\angular-coffee-shop\src\app\orm\models\business\gov\taxes" />
-      <recent name="G:\DWork\angular-coffee-shop\e2e\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cypress.cypress">
+  <component name="RunManager" selected="Karma.KarmaTests (coffee-shop)">
+    <configuration default="true" type="JavaScriptTestRunnerTestCafe">
+      <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cypress" type="CypressConfigurationType" factoryName="Cypress" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="allowRunningInParallel" value="true" />
+      <option name="allowRunningInParallel" value="false" />
       <option name="envs">
         <map />
-      </option>
-      <option name="myCypressRunSettings">
-        <CypressRunSettings>
-          <option name="configKind" value="JS" />
-          <option name="allNames" />
-          <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
-          <option name="specFile" />
-          <option name="testName" />
-          <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
-          <option name="envs">
-            <map />
-          </option>
-          <option name="additionalParams" value="-b chrome --headless " />
-          <option name="browser" value="CHROME" />
-          <option name="passParentEnvs" value="true" />
-          <option name="nodeJsRef" value="project" />
-          <option name="npmRef" value="Project" />
-          <option name="kind" value="DIRECTORY" />
-          <option name="interactive" value="false" />
-          <option name="browserPort" value="0" />
-          <option name="pageAutoSelection" value="true" />
-          <option name="defaultScript" value="true" />
-          <option name="recorderScript" value="" />
-          <option name="focusToIde" value="true" />
-          <option name="generateComment" value="true" />
-          <option name="insertAtCursor" value="false" />
-        </CypressRunSettings>
       </option>
       <option name="passParentEnvs" value="true" />
       <option name="programParameters" value="-b chrome --headless " />
@@ -139,7 +116,7 @@
         <list />
       </option>
       <option name="workingDirectory" value="G:\DWork\angular\angular-coffee-shop\cypress" />
-      <option name="configKind" value="JS" />
+      <option name="textRange" />
       <option name="allNames" />
       <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
       <option name="specFile" />
@@ -149,19 +126,11 @@
         <map />
       </option>
       <option name="additionalParams" value="-b chrome --headless " />
-      <option name="browser" value="CHROME" />
       <option name="passParentEnvs" value="true" />
       <option name="nodeJsRef" value="project" />
       <option name="npmRef" value="Project" />
       <option name="kind" value="DIRECTORY" />
       <option name="interactive" value="false" />
-      <option name="browserPort" value="0" />
-      <option name="pageAutoSelection" value="true" />
-      <option name="defaultScript" value="true" />
-      <option name="recorderScript" value="" />
-      <option name="focusToIde" value="true" />
-      <option name="generateComment" value="true" />
-      <option name="insertAtCursor" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="KarmaTests (coffee-shop)" type="JavaScriptTestRunnerKarma">
@@ -173,10 +142,6 @@
       <method v="2" />
     </configuration>
     <configuration name="TestCafe" type="JavaScriptTestRunnerTestCafe">
-      <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerTestCafe">
       <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
       <method v="2" />
     </configuration>
@@ -194,7 +159,6 @@
       <item itemvalue="Cypress.cypress" />
       <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="npm.Angular CLI Server" />
-      <item itemvalue="TestCafe.TestCafe" />
       <item itemvalue="JavaScript Debug.Angular JS Debug" />
     </list>
   </component>
@@ -296,7 +260,11 @@
       <workItem from="1636539849787" duration="151000" />
       <workItem from="1636540005894" duration="102000" />
       <workItem from="1636544282697" duration="775000" />
-      <workItem from="1636545076675" duration="793000" />
+      <workItem from="1636545076675" duration="1512000" />
+      <workItem from="1636546610131" duration="23000" />
+      <workItem from="1636546654055" duration="441000" />
+      <workItem from="1636547172848" duration="1527000" />
+      <workItem from="1636601008479" duration="3519000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
