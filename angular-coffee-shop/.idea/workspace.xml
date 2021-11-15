@@ -2,7 +2,7 @@
 <project version="4">
   <component name="AnalysisUIOptions">
     <option name="SPLITTER_PROPORTION" value="0.78220856" />
-    <option name="SCOPE_TYPE" value="8" />
+    <option name="SCOPE_TYPE" value="3" />
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="AutoImportSettings">
@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +46,6 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
-  </component>
   <component name="ProjectId" id="1zWNaLcvgCtYXQfJK7PFOx8nTzw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -67,7 +64,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="17.0.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.7" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cypress.json" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -99,7 +96,7 @@
       <recent name="G:\DWork\angular-coffee-shop\src\app\orm\models\business\gov\taxes" />
     </key>
   </component>
-  <component name="RunManager" selected="Karma.KarmaTests (coffee-shop)">
+  <component name="RunManager" selected="Karma.spec.ts">
     <configuration default="true" type="JavaScriptTestRunnerTestCafe">
       <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
       <method v="2" />
@@ -141,6 +138,16 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="spec.ts" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/cypress.json" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file-path value="$PROJECT_DIR$/cypress/integration/spec.ts" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCafe" type="JavaScriptTestRunnerTestCafe">
       <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
       <method v="2" />
@@ -160,7 +167,13 @@
       <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="npm.Angular CLI Server" />
       <item itemvalue="JavaScript Debug.Angular JS Debug" />
+      <item itemvalue="Karma.spec.ts" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karma.spec.ts" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -267,6 +280,15 @@
       <workItem from="1636601008479" duration="6787000" />
       <workItem from="1636620883263" duration="2688000" />
       <workItem from="1636626707573" duration="2517000" />
+      <workItem from="1636702713103" duration="704000" />
+      <workItem from="1636723560749" duration="9000" />
+      <workItem from="1636723578617" duration="6000" />
+      <workItem from="1636897099345" duration="959000" />
+      <workItem from="1636900134164" duration="692000" />
+      <workItem from="1636955346781" duration="283000" />
+      <workItem from="1636955634792" duration="79000" />
+      <workItem from="1636955716655" duration="3349000" />
+      <workItem from="1636964823152" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
