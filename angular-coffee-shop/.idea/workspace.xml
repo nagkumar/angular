@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/table/owner-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/table/owner-table.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1zWNaLcvgCtYXQfJK7PFOx8nTzw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,10 +66,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.karma.karma_node_package_dir" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node_modules/@angular/cli" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.0.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.7" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cypress.json" />
+    <property name="last_opened_file_path" value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,7 +78,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="" />
-    <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -96,7 +102,7 @@
       <recent name="G:\DWork\angular-coffee-shop\src\app\orm\models\business\gov\taxes" />
     </key>
   </component>
-  <component name="RunManager" selected="Karma.spec.ts">
+  <component name="RunManager" selected="Karma.KarmaTests (coffee-shop)">
     <configuration default="true" type="JavaScriptTestRunnerTestCafe">
       <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
       <method v="2" />
@@ -134,15 +140,15 @@
       <config-file value="$PROJECT_DIR$/src/test/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$" />
-      <node-interpreter value="project" />
+      <node-interpreter value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
       <envs />
       <method v="2" />
     </configuration>
     <configuration name="spec.ts" type="JavaScriptTestRunnerKarma" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/cypress.json" />
-      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
       <working-directory value="$PROJECT_DIR$" />
-      <node-interpreter value="project" />
+      <node-interpreter value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file-path value="$PROJECT_DIR$/cypress/integration/spec.ts" />
@@ -164,10 +170,10 @@
     </configuration>
     <list>
       <item itemvalue="Cypress.cypress" />
-      <item itemvalue="Karma.KarmaTests (coffee-shop)" />
-      <item itemvalue="npm.Angular CLI Server" />
       <item itemvalue="JavaScript Debug.Angular JS Debug" />
+      <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="Karma.spec.ts" />
+      <item itemvalue="npm.Angular CLI Server" />
     </list>
     <recent_temporary>
       <list>
@@ -288,7 +294,16 @@
       <workItem from="1636955346781" duration="283000" />
       <workItem from="1636955634792" duration="79000" />
       <workItem from="1636955716655" duration="3349000" />
-      <workItem from="1636964823152" duration="1344000" />
+      <workItem from="1636964823152" duration="2953000" />
+      <workItem from="1637048436849" duration="5675000" />
+      <workItem from="1637065995026" duration="374000" />
+      <workItem from="1637132216250" duration="517000" />
+      <workItem from="1637133349995" duration="149000" />
+      <workItem from="1637133582300" duration="596000" />
+      <workItem from="1637134186215" duration="1444000" />
+      <workItem from="1637138811921" duration="296000" />
+      <workItem from="1637139250929" duration="301000" />
+      <workItem from="1637142869202" duration="2840000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>

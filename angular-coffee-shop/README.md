@@ -94,9 +94,9 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 36. Use different line braces or make it auto formatable as per the developers code style upon check-in and check-out
 37. write proper shell scripts, that makes developers build, launch and test times as min as possible.
 38. Publish reusable components, libraries for the organisation to use it across the products/projects
-39. 
-
-
-
-
-
+39. Local NPM proxy registry for organisation - Verdaccio 
+40. Docker based Development
+41. ncu update integration with CI/CD to know the impact of updates immediately
+42. Make it work different verstions of node-12,14,17 etc..Make it work with different verstion of npm, yarn, npx
+43. Make sure angular tests, e2e all run from both cli and ide
+44. 
