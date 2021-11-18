@@ -100,3 +100,8 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 42. Make it work different verstions of node-12,14,17 etc..Make it work with different verstion of npm, yarn, npx
 43. Make sure angular tests, e2e all run from both cli and ide
 44. Reduce the Build and Deployment times through cache and automation
+45. Don't give scope for migration, with continues and timely upgrades use ncu -u as often as possible
+46. Make Development brain work rather than sweat work with no production fires
+47. Make team experts in developing their own schematics/code generators specific to domain
+48. Pluggablity is the modularity and architecture by itself - so enguage decoupling extending the angular as much as possible
+
