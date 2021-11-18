@@ -104,4 +104,7 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 46. Make Development brain work rather than sweat work with no production fires
 47. Make team experts in developing their own schematics/code generators specific to domain
 48. Pluggablity is the modularity and architecture by itself - so enguage decoupling extending the angular as much as possible
+49. Server Side Rendering to boost performance
+50. See what all can be made a pipe class methods to enable cache
+51. 
 

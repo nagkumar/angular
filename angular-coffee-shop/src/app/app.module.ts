@@ -26,7 +26,7 @@ import {ComboItemsService} from "./orm/models/services/products/comboItems.servi
 		  OwnerTableComponent,
 		  EditFormComponent
 	      ],
-	      imports: [BrowserModule, AppRoutingModule, FormsModule, BrowserAnimationsModule],
+	      imports: [BrowserModule.withServerTransition({appId: 'serverApp'}), AppRoutingModule, FormsModule, BrowserAnimationsModule],
 	      providers: [SingleItemsService, ComboItemsService, PaymentService, BsModalService],
 	      bootstrap: [AppMainPage]
 	  })

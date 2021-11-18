@@ -21,7 +21,7 @@
 		"build": {
 		    "builder": "@angular-devkit/build-angular:browser",
 		    "options": {
-			"outputPath": "dist/angular-coffee-shop",
+			"outputPath": "dist/angular-coffee-shop/browser",
 			"aot": true,
 			"index": "src/index.html",
 			"main": "src/main.ts",
@@ -137,7 +137,67 @@
 			    "devServerTarget": "angular-coffee-shop:serve:production"
 			}
 		    }
-		}
+		},
+				"server": {
+					"builder": "@angular-devkit/build-angular:server",
+					"options": {
+						"outputPath": "dist/angular-coffee-shop/server",
+						"main": "server.ts",
+						"tsConfig": "src/tsconfig.server.json"
+					},
+					"configurations": {
+						"development": {
+							"optimization": false,
+							"sourceMap": true
+						},
+						"production": {
+							"outputHashing": "media",
+							"fileReplacements": [
+								{
+									"replace": "src/environments/environment.ts",
+									"with": "src/environments/environment.prod.ts"
+								}
+							],
+							"optimization": true,
+							"sourceMap": false,
+							"extractLicenses": true
+						}
+					},
+					"defaultConfiguration": "production"
+				},
+				"serve-ssr": {
+					"builder": "@nguniversal/builders:ssr-dev-server",
+					"configurations": {
+						"development": {
+							"browserTarget": "angular-coffee-shop:build:development",
+							"serverTarget": "angular-coffee-shop:server:development"
+						},
+						"production": {
+							"browserTarget": "angular-coffee-shop:build:production",
+							"serverTarget": "angular-coffee-shop:server:production"
+						}
+					},
+					"defaultConfiguration": "development"
+				},
+				"prerender": {
+					"builder": "@nguniversal/builders:prerender",
+					"options": {
+						"routes": [
+							"/"
+						]
+					},
+					"configurations": {
+						"production": {
+							"browserTarget": "angular-coffee-shop:build:production",
+							"serverTarget": "angular-coffee-shop:server:production"
+						},
+						"development": {
+							"browserTarget": "angular-coffee-shop:build:development",
+							"serverTarget": "angular-coffee-shop:server:development"
+						}
+					},
+					"defaultConfiguration": "production"
+				}
 	    }
 	}
     },
