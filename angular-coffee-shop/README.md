@@ -53,7 +53,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 `ngh angular-cli-ghpages —-dir=dist/angular-coffee-shop` or  `gh-pages -d build` - gh-pages is still not working Open the browser with
 URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io/angular-coffee-shop/)
 
-#CleanCode NFRs
+# CleanCode NFRs
 
 1. Use Classes and Functions a they best fit
 2. Keep all related code of models, services, assets, components etc in page roots
@@ -85,8 +85,8 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 28. Make sure proper log framework is used to send console logs to server as needed
 29. use ngx modules such as for build and model dialogs etc
 30. Never have unused code and imports, always format the code as per the guidelines manually or at git commit time
-31. Look at microsoft marketplace for angular https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack, it has some cool things that integrate well 
-    with vs code
+31. Look at microsoft marketplace for angular https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack, it has some cool things that integrate well with vs
+    code
 32. images/assets all should be optimized and should be organized as per the web and mobile overrides if it happens
 33. Use scss as much as possible
 34. Use only active opensource libraries never the ones which are not maintained
@@ -94,7 +94,7 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 36. Use different line braces or make it auto formatable as per the developers code style upon check-in and check-out
 37. write proper shell scripts, that makes developers build, launch and test times as min as possible.
 38. Publish reusable components, libraries for the organisation to use it across the products/projects
-39. Local NPM proxy registry for organisation - Verdaccio 
+39. Local NPM proxy registry for organisation - Verdaccio
 40. Docker based Development
 41. ncu update integration with CI/CD to know the impact of updates immediately
 42. Make it work different verstions of node-12,14,17 etc..Make it work with different verstion of npm, yarn, npx

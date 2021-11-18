@@ -1,7 +1,6 @@
 import {
     Component,
     EventEmitter,
-    OnInit,
     Output
 } from '@angular/core';
 import {SingleItemsService} from '../../../../../orm/models/services/products/singleItems.service';
@@ -12,15 +11,11 @@ import {ProductInfo} from "../../../../../orm/models/ProductInfo";
 	       templateUrl: './list-thumbs.component.html',
 	       styleUrls: ['./list-thumbs.component.scss']
 	   })
-export class ListThumbsComponent implements OnInit
+export class ListThumbsComponent
 {
     @Output() outOrderItemEvent = new EventEmitter();
 
     constructor(public productsService: SingleItemsService)
-    {
-    }
-
-    ngOnInit()
     {
     }
 
