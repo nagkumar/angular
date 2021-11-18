@@ -99,4 +99,4 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 41. ncu update integration with CI/CD to know the impact of updates immediately
 42. Make it work different verstions of node-12,14,17 etc..Make it work with different verstion of npm, yarn, npx
 43. Make sure angular tests, e2e all run from both cli and ide
-44. 
+44. Reduce the Build and Deployment times through cache and automation

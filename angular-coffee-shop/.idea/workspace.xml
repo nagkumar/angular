@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/table/owner-table.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/table/owner-table.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +64,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.karma.karma_node_package_dir" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node_modules/@angular/cli" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.0.1" />
@@ -74,14 +78,14 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="" />
-    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="G:\DWork\angular\angular-coffee-shop\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -170,10 +174,10 @@
     </configuration>
     <list>
       <item itemvalue="Cypress.cypress" />
-      <item itemvalue="JavaScript Debug.Angular JS Debug" />
       <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="Karma.spec.ts" />
       <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="JavaScript Debug.Angular JS Debug" />
     </list>
     <recent_temporary>
       <list>
@@ -303,7 +307,8 @@
       <workItem from="1637134186215" duration="1444000" />
       <workItem from="1637138811921" duration="296000" />
       <workItem from="1637139250929" duration="301000" />
-      <workItem from="1637142869202" duration="2840000" />
+      <workItem from="1637142869202" duration="2933000" />
+      <workItem from="1637197824519" duration="3560000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
