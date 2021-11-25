@@ -106,5 +106,34 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 48. Pluggablity is the modularity and architecture by itself - so enguage decoupling extending the angular as much as possible
 49. Server Side Rendering to boost performance
 50. See what all can be made a pipe class methods to enable cache
-51. 
+51. Monorepo
+52. Use nx workspaces to 
+53. Micro-front-ends
+54. Code Quality Automation - AI-Powered Automation - The Future
+55. replace karma with jest
+56. Snapshot Testing
+57. Adoption of Storybook, Figma for faster UI pre-screens arrival
+58. Angular e2e with Cypress and Cucumber Integration for BDD testing
+59. Code Coverage & Smoke Tests for CI/CD
+60. Cloud Serverless Functions/lambda/ of Node
+61. Performance Testing using JMeter and WebPageTest etc
+62. Logging, Tracing & Remote Monitoring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
