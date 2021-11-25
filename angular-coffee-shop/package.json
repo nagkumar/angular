@@ -68,6 +68,8 @@
 	"@typescript-eslint/eslint-plugin": "5.4.0",
 	"@typescript-eslint/parser": "5.4.0",
 	"cypress": "^9.1.0",
+	"cypress-audit": "^1.1.0",
+	"cypress-lighthouse": "^0.1.0",
 	"eslint": "^8.3.0",
 	"har-validator": "^5.1.5",
 	"hdr-histogram-percentiles-obj": "^3.0.0",

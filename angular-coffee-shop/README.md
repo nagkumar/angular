@@ -118,6 +118,8 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 60. Cloud Serverless Functions/lambda/ of Node
 61. Performance Testing using JMeter and WebPageTest etc
 62. Logging, Tracing & Remote Monitoring
+63. Lighthouse Performance Testing
+
 
 
 
