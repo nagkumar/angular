@@ -41,3 +41,11 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+declare namespace Cypress {
+    interface Chainable<Subject> {
+	login(email: string, password: string): void;
+	lighthouse(...arg: any): any;
+	pa11y(...arg: any): any;
+    }
+}
+

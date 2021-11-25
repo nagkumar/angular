@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,11 +101,11 @@
       <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\services\products\mock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\DWork\angular\angular-coffee-shop\cypress\plugins" />
       <recent name="F:\Data\enterprise\users\tejasoft\active\work\products\fnd\web\node\bu\os\win\bat" />
       <recent name="G:\DWork\angular-coffee-shop\src\test" />
       <recent name="G:\DWork\angular-coffee-shop\src" />
       <recent name="G:\DWork\angular-coffee-shop\src\app" />
-      <recent name="G:\DWork\angular-coffee-shop\src\app\orm\models\business\gov\taxes" />
     </key>
   </component>
   <component name="RunManager" selected="Karma.KarmaTests (coffee-shop)">
@@ -333,7 +338,8 @@
       <workItem from="1637765488764" duration="1896000" />
       <workItem from="1637805368668" duration="1800000" />
       <workItem from="1637808038573" duration="416000" />
-      <workItem from="1637808463709" duration="2086000" />
+      <workItem from="1637808463709" duration="5029000" />
+      <workItem from="1637813878065" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
