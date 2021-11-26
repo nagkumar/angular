@@ -30,12 +30,12 @@
 	Clear
     </button>
 
-    <button (click)="onAddNew()" *ngIf="(inEditItemOnChangeData===null)" class="btn btn-success">
+    <button (click)="onAddNew()" *ngIf="(inEditItemOnChangeData == undefined)" class="btn btn-success">
 	<i class="fas fa-plus mr-2"></i>
 	Add
     </button>
 
-    <button (click)="onEditedSave()" *ngIf="(inEditItemOnChangeData!==null)" class="btn btn-warning">
+    <button (click)="onEditedSave()" *ngIf="(inEditItemOnChangeData!=undefined)" class="btn btn-warning">
 	<i class="fas fa-save mr-2"></i>
 	Save Edit
     </button>

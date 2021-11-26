@@ -23,9 +23,14 @@ export class EditFormComponent implements OnChanges
     {
     }
 
+    isEdit(aChanges)
+    {
+	return (aChanges.inEditItemOnChangeData.currentValue != undefined) || (aChanges.inEditItemOnChangeData.currentValue != null);
+    }
+
     ngOnChanges(aChanges: SimpleChanges)
     {
-	if ((aChanges.inEditItemOnChangeData.currentValue != undefined) || (aChanges.inEditItemOnChangeData.currentValue != null))
+	if (this.isEdit(aChanges))
 	{
 	    this.formProductInfo.update(aChanges.inEditItemOnChangeData.currentValue.productInfo);
 	}

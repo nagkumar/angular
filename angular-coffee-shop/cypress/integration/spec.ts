@@ -6,7 +6,7 @@ describe('My First Test', () =>
 	cy.contains('Your Order')
 	cy.contains('Make Payment')
 
-	const customThresholds = {
+	const customThresholds: any = {
 	    performance: 50,
 	    accessibility: 50,
 	    seo: 70,
@@ -16,10 +16,11 @@ describe('My First Test', () =>
 	    'total-blocking-time': 500,
 	};
 
-	const desktopConfig = {
+	const desktopConfig: any = {
 	    formFactor: 'desktop',
 	    screenEmulation: {disabled: true},
 	};
 	(cy as any).lighthouse(customThresholds, desktopConfig)
+	// (cy as any).lighthouse()
     })
 })
