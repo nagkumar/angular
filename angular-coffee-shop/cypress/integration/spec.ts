@@ -1,3 +1,5 @@
+import "cypress-audit/commands";
+
 describe('My First Test', () =>
 {
     it('Visits the initial project page', () =>
@@ -20,7 +22,10 @@ describe('My First Test', () =>
 	    formFactor: 'desktop',
 	    screenEmulation: {disabled: true},
 	};
-	(cy as any).lighthouse(customThresholds, desktopConfig)
-	// (cy as any).lighthouse()
+
+	(cy as any).lighthouse(customThresholds, desktopConfig);
+	// (cy as any).lighthouse();
+	(cy as any).pa11y()
     })
 })
+

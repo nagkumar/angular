@@ -10,14 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/integration/spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +343,10 @@
       <workItem from="1637903606650" duration="1218000" />
       <workItem from="1637904993495" duration="2734000" />
       <workItem from="1637919295952" duration="153000" />
-      <workItem from="1637919588323" duration="1024000" />
+      <workItem from="1637919588323" duration="6366000" />
+      <workItem from="1637993965680" duration="3466000" />
+      <workItem from="1638002604951" duration="169000" />
+      <workItem from="1638002780729" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
@@ -358,11 +360,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/cypress/plugins/index.js" />
-      </list>
-    </option>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
@@ -457,7 +454,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.html</url>
           <line>27</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
