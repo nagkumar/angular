@@ -12,11 +12,6 @@
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/integration/spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +341,7 @@
       <workItem from="1637919588323" duration="6366000" />
       <workItem from="1637993965680" duration="3466000" />
       <workItem from="1638002604951" duration="169000" />
-      <workItem from="1638002780729" duration="547000" />
+      <workItem from="1638002780729" duration="1429000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
