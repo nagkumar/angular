@@ -119,3 +119,4 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 61. Performance Testing using JMeter and WebPageTest etc
 62. Logging, Tracing & Remote Monitoring
 63. Lighthouse Performance Testing
+67. pa11y and axe-core accessibility test automation

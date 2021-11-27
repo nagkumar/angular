@@ -11,7 +11,13 @@
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/integration/spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/sales/customer/components/thumbs/list-thumbs.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/sales/customer/components/thumbs/list-thumbs.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tsconfig.app.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="17.0.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.7" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angular-performance-tuning-guide" />
+    <property name="last_opened_file_path" value="F:/Data/enterprise/users/tejasoft/active/work/products/fnd/web/node/bu/os/win/bat" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,7 +84,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="" />
-    <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
@@ -88,11 +94,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Data\enterprise\users\tejasoft\active\work\products\fnd\web\node\bu\os\win\bat" />
       <recent name="G:\DWork\CShop\angular-coffee-shop\" />
       <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\business\offers\extra" />
       <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\business\offers" />
       <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\services\products" />
-      <recent name="G:\DWork\CShop\angular-coffee-shop\src\app\orm\models\services\products\mock" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\DWork\angular\angular-coffee-shop\cypress\plugins" />
@@ -341,7 +347,13 @@
       <workItem from="1637919588323" duration="6366000" />
       <workItem from="1637993965680" duration="3466000" />
       <workItem from="1638002604951" duration="169000" />
-      <workItem from="1638002780729" duration="1429000" />
+      <workItem from="1638002780729" duration="1576000" />
+      <workItem from="1638004525594" duration="1588000" />
+      <workItem from="1638006192720" duration="3399000" />
+      <workItem from="1638009770215" duration="3271000" />
+      <workItem from="1638013109591" duration="70000" />
+      <workItem from="1638015933313" duration="2131000" />
+      <workItem from="1638018668645" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>

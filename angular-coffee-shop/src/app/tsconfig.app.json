@@ -4,7 +4,7 @@
     "compilerOptions": {
 	"outDir": "../../out-tsc/app",
 	"module": "es2020",
-	"types": []
+	"types": [],
     },
     "files": [
 	"../main.ts",

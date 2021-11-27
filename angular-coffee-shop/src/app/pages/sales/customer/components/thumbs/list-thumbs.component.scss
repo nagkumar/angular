@@ -16,7 +16,7 @@
 	text-align: center;
 	top: 20px;
 	left: -30px;
-	background: red;
+	background: #8A0000;
 	color: white;
 	font-weight: bold;
 	transform: rotate(-45deg);
@@ -27,11 +27,12 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	background: rgba(255, 255, 255, 0.5);
+	background: #8A0000;
 	padding: 10px 20px;
 	font-weight: bold;
 	letter-spacing: 3px;
 	border-top-left-radius: 5px;
 	font-size: 20px;
+	color: white;
     }
 }

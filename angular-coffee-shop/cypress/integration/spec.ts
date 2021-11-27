@@ -5,6 +5,7 @@ describe('My First Test', () =>
     it('Visits the initial project page', () =>
     {
 	cy.visit('/')
+	cy.injectAxe()
 	cy.contains('Your Order')
 	cy.contains('Make Payment')
 
@@ -26,6 +27,7 @@ describe('My First Test', () =>
 	(cy as any).lighthouse(customThresholds, desktopConfig);
 	// (cy as any).lighthouse();
 	// (cy as any).pa11y()
+	cy.checkA11y()
     })
 })
 
