@@ -17,6 +17,7 @@
         "serve:ssr": "node dist/angular-coffee-shop/server/main.js",
         "build:ssr": "ng build && ng run angular-coffee-shop:server",
         "prerender": "ng run angular-coffee-shop:prerender"
+        
     },
     "browserslist": [
         "defaults",
