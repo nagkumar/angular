@@ -11,13 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/pages/sales/customer/components/thumbs/list-thumbs.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/sales/customer/components/thumbs/list-thumbs.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tsconfig.app.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +347,9 @@
       <workItem from="1638009770215" duration="3271000" />
       <workItem from="1638013109591" duration="70000" />
       <workItem from="1638015933313" duration="2131000" />
-      <workItem from="1638018668645" duration="779000" />
+      <workItem from="1638018668645" duration="2066000" />
+      <workItem from="1638039891308" duration="2081000" />
+      <workItem from="1638117433131" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
