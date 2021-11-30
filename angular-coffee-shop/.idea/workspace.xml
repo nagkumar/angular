@@ -9,7 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes" />
+    <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +44,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -64,10 +72,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.karma.karma_node_package_dir" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node_modules/@angular/cli" />
-    <property name="javascript.nodejs.core.library.configured.version" value="17.0.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.11.7" />
+    <property name="javascript.nodejs.core.library.configured.version" value="17.1.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.10" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="F:/Data/enterprise/users/tejasoft/active/work/products/fnd/web/node/bu/os/win/bat" />
+    <property name="last_opened_file_path" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.1.0/node.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,10 +83,10 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="" />
-    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="ts.external.directory.path" value="G:\DWork\angular\angular-coffee-shop\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -348,6 +356,11 @@
       <workItem from="1638039891308" duration="2081000" />
       <workItem from="1638117433131" duration="635000" />
       <workItem from="1638127875414" duration="657000" />
+      <workItem from="1638183551801" duration="71000" />
+      <workItem from="1638183626738" duration="675000" />
+      <workItem from="1638185443424" duration="1034000" />
+      <workItem from="1638187876613" duration="2045000" />
+      <workItem from="1638254889892" duration="2497000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
@@ -463,6 +476,41 @@
           <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.html</url>
           <line>27</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.ts</url>
+          <line>27</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.ts</url>
+          <line>34</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/pages/main/app.main.page.html</url>
+          <line>5</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/pages/main/app.main.page.html</url>
+          <line>2</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/pages/main/app.main.page.ts</url>
+          <line>7</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/pages/sales/customer/sales-customer.page.ts</url>
+          <line>14</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/orm/models/builders/ProductInfoBuilder.ts</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
