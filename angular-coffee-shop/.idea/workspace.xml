@@ -10,8 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.pnp.loader.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarnrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.yarnrc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -72,10 +74,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.karma.karma_node_package_dir" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node_modules/@angular/cli" />
-    <property name="javascript.nodejs.core.library.configured.version" value="17.1.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.11.10" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.34" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.1.0/node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -86,7 +88,7 @@
     <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="G:\DWork\angular\angular-coffee-shop\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -113,9 +115,36 @@
       <method v="2" />
     </configuration>
     <configuration name="cypress" type="CypressConfigurationType" factoryName="Cypress" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="allowRunningInParallel" value="false" />
+      <option name="allowRunningInParallel" value="true" />
       <option name="envs">
         <map />
+      </option>
+      <option name="myCypressRunSettings">
+        <CypressRunSettings>
+          <option name="configKind" value="JS" />
+          <option name="allNames" />
+          <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
+          <option name="specFile" />
+          <option name="testName" />
+          <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
+          <option name="envs">
+            <map />
+          </option>
+          <option name="additionalParams" value="-b chrome --headless " />
+          <option name="browser" />
+          <option name="passParentEnvs" value="true" />
+          <option name="nodeJsRef" value="project" />
+          <option name="npmRef" value="Project" />
+          <option name="kind" value="DIRECTORY" />
+          <option name="interactive" value="false" />
+          <option name="browserPort" />
+          <option name="pageAutoSelection" value="true" />
+          <option name="defaultScript" value="true" />
+          <option name="recorderScript" value="" />
+          <option name="focusToIde" value="true" />
+          <option name="generateComment" value="true" />
+          <option name="insertAtCursor" value="false" />
+        </CypressRunSettings>
       </option>
       <option name="passParentEnvs" value="true" />
       <option name="programParameters" value="-b chrome --headless " />
@@ -124,7 +153,7 @@
         <list />
       </option>
       <option name="workingDirectory" value="G:\DWork\angular\angular-coffee-shop\cypress" />
-      <option name="textRange" />
+      <option name="configKind" value="JS" />
       <option name="allNames" />
       <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
       <option name="specFile" />
@@ -134,11 +163,19 @@
         <map />
       </option>
       <option name="additionalParams" value="-b chrome --headless " />
+      <option name="browser" />
       <option name="passParentEnvs" value="true" />
       <option name="nodeJsRef" value="project" />
       <option name="npmRef" value="Project" />
       <option name="kind" value="DIRECTORY" />
       <option name="interactive" value="false" />
+      <option name="browserPort" />
+      <option name="pageAutoSelection" value="true" />
+      <option name="defaultScript" value="true" />
+      <option name="recorderScript" value="" />
+      <option name="focusToIde" value="true" />
+      <option name="generateComment" value="true" />
+      <option name="insertAtCursor" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="KarmaTests (coffee-shop)" type="JavaScriptTestRunnerKarma">
@@ -360,7 +397,13 @@
       <workItem from="1638183626738" duration="675000" />
       <workItem from="1638185443424" duration="1034000" />
       <workItem from="1638187876613" duration="2045000" />
-      <workItem from="1638254889892" duration="2497000" />
+      <workItem from="1638254889892" duration="4844000" />
+      <workItem from="1638273458890" duration="369000" />
+      <workItem from="1638279839292" duration="100000" />
+      <workItem from="1638279969763" duration="239000" />
+      <workItem from="1638356039540" duration="113000" />
+      <workItem from="1638356192327" duration="663000" />
+      <workItem from="1638356873545" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
@@ -458,24 +501,9 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/AppConsts.ts</url>
-          <line>2</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/catalog-owner.page.html</url>
           <line>3</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/catalog-owner.page.ts</url>
-          <line>13</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.html</url>
-          <line>27</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.ts</url>
@@ -511,6 +539,18 @@
           <url>file://$PROJECT_DIR$/src/app/orm/models/builders/ProductInfoBuilder.ts</url>
           <line>14</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/orm/models/items/ComboItem.ts</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/AppConsts.ts</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

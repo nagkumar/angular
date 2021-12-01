@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Angular JS Debug" type="JavascriptDebugType" editBeforeRun="true" uri="http://localhost:4200" useFirstLineBreakpoints="true">
-    <mapping url=" webpack:///." local-file="$PROJECT_DIR$" />
     <mapping url=" webpack:///.src" local-file="$PROJECT_DIR$/src" />
+    <mapping url=" webpack:///." local-file="$PROJECT_DIR$" />
     <method v="2" />
   </configuration>
 </component>
