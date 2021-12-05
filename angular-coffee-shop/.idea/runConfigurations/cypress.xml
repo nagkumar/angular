@@ -1,0 +1,66 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="cypress" type="CypressConfigurationType" factoryName="Cypress" show_console_on_std_err="false" show_console_on_std_out="false">
+    <option name="allowRunningInParallel" value="true" />
+    <option name="envs">
+      <map />
+    </option>
+    <option name="myCypressRunSettings">
+      <CypressRunSettings>
+        <option name="configKind" value="JS" />
+        <option name="allNames" />
+        <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
+        <option name="specFile" />
+        <option name="testName" />
+        <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
+        <option name="envs">
+          <map />
+        </option>
+        <option name="additionalParams" value="--headless -b chrome" />
+        <option name="browser" value="CHROME" />
+        <option name="passParentEnvs" value="true" />
+        <option name="nodeJsRef" value="project" />
+        <option name="npmRef" value="Project" />
+        <option name="kind" value="DIRECTORY" />
+        <option name="interactive" value="true" />
+        <option name="browserPort" value="0" />
+        <option name="pageAutoSelection" value="true" />
+        <option name="defaultScript" value="true" />
+        <option name="recorderScript" value="" />
+        <option name="focusToIde" value="true" />
+        <option name="generateComment" value="true" />
+        <option name="insertAtCursor" value="false" />
+      </CypressRunSettings>
+    </option>
+    <option name="passParentEnvs" value="true" />
+    <option name="programParameters" value="--headless -b chrome" />
+    <option name="projectPathOnTarget" />
+    <option name="selectedOptions">
+      <list />
+    </option>
+    <option name="workingDirectory" value="G:\DWork\angular\angular-coffee-shop\cypress" />
+    <option name="configKind" value="JS" />
+    <option name="allNames" />
+    <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
+    <option name="specFile" />
+    <option name="testName" />
+    <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
+    <option name="envs">
+      <map />
+    </option>
+    <option name="additionalParams" value="--headless -b chrome" />
+    <option name="browser" value="CHROME" />
+    <option name="passParentEnvs" value="true" />
+    <option name="nodeJsRef" value="project" />
+    <option name="npmRef" value="Project" />
+    <option name="kind" value="DIRECTORY" />
+    <option name="interactive" value="true" />
+    <option name="browserPort" value="0" />
+    <option name="pageAutoSelection" value="true" />
+    <option name="defaultScript" value="true" />
+    <option name="recorderScript" value="" />
+    <option name="focusToIde" value="true" />
+    <option name="generateComment" value="true" />
+    <option name="insertAtCursor" value="false" />
+    <method v="2" />
+  </configuration>
+</component>

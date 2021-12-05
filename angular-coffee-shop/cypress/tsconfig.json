@@ -1,12 +1,22 @@
 {
     "extends": "../tsconfig.json",
     "include": [
+	"../node_modules",
 	"**/*.ts"
     ],
     "compilerOptions": {
-	"sourceMap": false,
+	"baseUrl": "../node_modules",
+	"sourceMap": true,
+	"target": "es2021",
+	"strict": true,
+	"moduleResolution": "node",
 	"types": [
-	    "cypress"
+	    "mocha",
+	    "cypress",
+	],
+	"lib": [
+	    "dom",
+	    "es2021"
 	]
-    }
+    },
 }

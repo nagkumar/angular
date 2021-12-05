@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.pnp.loader.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.yarnrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.yarnrc.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/screenshots/spec.ts/My First Test -- Visits the initial project page (failed).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,6 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.karma.karma_node_package_dir" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node_modules/@angular/cli" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
@@ -93,6 +93,9 @@
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Data\enterprise\users\tejasoft\active\work\products\fnd\web\node\bu\os\win\bat" />
@@ -109,73 +112,9 @@
       <recent name="G:\DWork\angular-coffee-shop\src\app" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Angular JS Debug">
+  <component name="RunManager" selected="Cypress.cypress">
     <configuration default="true" type="JavaScriptTestRunnerTestCafe">
       <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cypress" type="CypressConfigurationType" factoryName="Cypress" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="allowRunningInParallel" value="true" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="myCypressRunSettings">
-        <CypressRunSettings>
-          <option name="configKind" value="JS" />
-          <option name="allNames" />
-          <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
-          <option name="specFile" />
-          <option name="testName" />
-          <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
-          <option name="envs">
-            <map />
-          </option>
-          <option name="additionalParams" value="-b chrome --headless " />
-          <option name="browser" />
-          <option name="passParentEnvs" value="true" />
-          <option name="nodeJsRef" value="project" />
-          <option name="npmRef" value="Project" />
-          <option name="kind" value="DIRECTORY" />
-          <option name="interactive" value="false" />
-          <option name="browserPort" />
-          <option name="pageAutoSelection" value="true" />
-          <option name="defaultScript" value="true" />
-          <option name="recorderScript" value="" />
-          <option name="focusToIde" value="true" />
-          <option name="generateComment" value="true" />
-          <option name="insertAtCursor" value="false" />
-        </CypressRunSettings>
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="-b chrome --headless " />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="workingDirectory" value="G:\DWork\angular\angular-coffee-shop\cypress" />
-      <option name="configKind" value="JS" />
-      <option name="allNames" />
-      <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
-      <option name="specFile" />
-      <option name="testName" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
-      <option name="envs">
-        <map />
-      </option>
-      <option name="additionalParams" value="-b chrome --headless " />
-      <option name="browser" />
-      <option name="passParentEnvs" value="true" />
-      <option name="nodeJsRef" value="project" />
-      <option name="npmRef" value="Project" />
-      <option name="kind" value="DIRECTORY" />
-      <option name="interactive" value="false" />
-      <option name="browserPort" />
-      <option name="pageAutoSelection" value="true" />
-      <option name="defaultScript" value="true" />
-      <option name="recorderScript" value="" />
-      <option name="focusToIde" value="true" />
-      <option name="generateComment" value="true" />
-      <option name="insertAtCursor" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="KarmaTests (coffee-shop)" type="JavaScriptTestRunnerKarma">
@@ -403,7 +342,25 @@
       <workItem from="1638279969763" duration="239000" />
       <workItem from="1638356039540" duration="113000" />
       <workItem from="1638356192327" duration="663000" />
-      <workItem from="1638356873545" duration="2643000" />
+      <workItem from="1638356873545" duration="4973000" />
+      <workItem from="1638420505308" duration="1376000" />
+      <workItem from="1638427671815" duration="48000" />
+      <workItem from="1638427744459" duration="730000" />
+      <workItem from="1638428487801" duration="1929000" />
+      <workItem from="1638430493990" duration="2115000" />
+      <workItem from="1638436348560" duration="123000" />
+      <workItem from="1638436475260" duration="90000" />
+      <workItem from="1638436569714" duration="94000" />
+      <workItem from="1638436666939" duration="49000" />
+      <workItem from="1638436718819" duration="117000" />
+      <workItem from="1638436838768" duration="136000" />
+      <workItem from="1638436977876" duration="702000" />
+      <workItem from="1638437688991" duration="5080000" />
+      <workItem from="1638445414922" duration="266000" />
+      <workItem from="1638445699542" duration="108000" />
+      <workItem from="1638446305841" duration="804000" />
+      <workItem from="1638531448417" duration="2139000" />
+      <workItem from="1638679754725" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
@@ -501,11 +458,6 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/catalog-owner.page.html</url>
-          <line>3</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.ts</url>
           <line>27</line>
           <option name="timeStamp" value="16" />
@@ -514,16 +466,6 @@
           <url>file://$PROJECT_DIR$/src/app/pages/catalog/owner/components/edit/edit-form.component.ts</url>
           <line>34</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/pages/main/app.main.page.html</url>
-          <line>5</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/pages/main/app.main.page.html</url>
-          <line>2</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/pages/main/app.main.page.ts</url>
@@ -536,20 +478,13 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/app/orm/models/builders/ProductInfoBuilder.ts</url>
-          <line>14</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/orm/models/items/ComboItem.ts</url>
           <line>13</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/AppConsts.ts</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>

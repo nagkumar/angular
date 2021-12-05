@@ -1,33 +1,59 @@
 import "cypress-audit/commands";
 
+before(function ()
+       {
+	   cy.log('spec before function')
+       })
+
+beforeEach(function ()
+	   {
+	       cy.log('spec beforeEach function')
+	   })
+
 describe('My First Test', () =>
 {
-    it('Visits the initial project page', () =>
+    before(function ()
+	   {
+	       cy.log('describe before function')
+	   })
+
+    beforeEach(function ()
+	       {
+		   cy.log('describe beforeEach function')
+	       })
+
+    it('it1', () =>
     {
 	cy.visit('/')
-	cy.injectAxe()
-	cy.contains('Your Order')
-	cy.contains('Make Payment')
-
-	const customThresholds: any = {
-	    performance: 1,
-	    accessibility: 50,
-	    seo: 70,
-	    'first-contentful-paint': 10000,
-	    'largest-contentful-paint': 10000,
-	    'cumulative-layout-shift': 0.9,
-	    'total-blocking-time': 10000,
-	};
-
-	const desktopConfig: any = {
-	    formFactor: 'desktop',
-	    screenEmulation: {disabled: true},
-	};
-
-	(cy as any).lighthouse(customThresholds, desktopConfig);
-	// (cy as any).lighthouse();
-	// (cy as any).pa11y()
-	cy.checkA11y()
     })
+
+    it('it2', () =>
+    {
+	cy.visit('/owner')
+    })
+
+    it('it3', () =>
+    {
+	cy.visit('/')
+    })
+
+    afterEach(function ()
+	      {
+		  cy.log('describe afterEach function')
+	      })
+
+    after(function ()
+	  {
+	      cy.log('describe after function')
+	  })
 })
 
+afterEach(function ()
+	  {
+	      cy.log('spec afterEach function')
+	  })
+
+after(function ()
+      {
+	  cy.log('spec after function')
+      })

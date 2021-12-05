@@ -15,3 +15,23 @@
 
 // When a command from ./commands is ready to use, import with `import './commands'` syntax
 import './commands';
+
+before(function ()
+       {
+	   cy.log('Index before function')
+       })
+
+beforeEach(function ()
+	   {
+	       cy.log('Index beforeEach function')
+	   })
+
+afterEach(function ()
+	  {
+	      cy.log('Index afterEach function')
+	  })
+
+after(function ()
+      {
+	  cy.log('Index after function')
+      })
