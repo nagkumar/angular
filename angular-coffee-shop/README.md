@@ -107,7 +107,7 @@ URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io
 49. Server Side Rendering to boost performance
 50. See what all can be made a pipe class methods to enable cache
 51. Monorepo
-52. Use nx workspaces to 
+52. Use nx workspaces to
 53. Micro-front-ends
 54. Code Quality Automation - AI-Powered Automation - The Future
 55. replace karma with jest

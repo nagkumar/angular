@@ -8,7 +8,7 @@
       <CypressRunSettings>
         <option name="configKind" value="JS" />
         <option name="allNames" />
-        <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
+        <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop\cypress" />
         <option name="specFile" />
         <option name="testName" />
         <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
@@ -40,7 +40,7 @@
     <option name="workingDirectory" value="G:\DWork\angular\angular-coffee-shop\cypress" />
     <option name="configKind" value="JS" />
     <option name="allNames" />
-    <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop" />
+    <option name="specsDir" value="G:\DWork\angular\angular-coffee-shop\cypress" />
     <option name="specFile" />
     <option name="testName" />
     <option name="workingDirectory" value="file://$PROJECT_DIR$/cypress" />
