@@ -10,12 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/cypress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/cypress.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular JS Debug.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -369,6 +363,7 @@
       <workItem from="1638783878987" duration="2087000" />
       <workItem from="1639032593114" duration="914000" />
       <workItem from="1639215590655" duration="7000" />
+      <workItem from="1640403911993" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
