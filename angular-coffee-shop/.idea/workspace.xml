@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,9 +68,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="app.teamhub.trackedBranches" value="-1qkq87k/raja12345,-1qkq87k/master" />
     <property name="javascript.karma.karma_node_package_dir" value="D:/Apps/Dev/langs/scripting/js/Node/17.x/17.0.1/node_modules/@angular/cli" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.18.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.17.34" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.17" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cypress" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -82,7 +84,7 @@
     <property name="nodejs_interpreter_path" value="D:/Apps/Dev/langs/scripting/js/Node/16.x/16.13.0/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="G:\DWork\angular\angular-coffee-shop\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -106,7 +108,7 @@
       <recent name="G:\DWork\angular-coffee-shop\src\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Cypress.cypress">
+  <component name="RunManager" selected="Karma.KarmaTests (coffee-shop)">
     <configuration default="true" type="JavaScriptTestRunnerTestCafe">
       <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
       <method v="2" />
@@ -144,7 +146,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cypress.cypress" />
       <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="Karma.spec.ts" />
       <item itemvalue="npm.Angular CLI Server" />
@@ -364,6 +365,10 @@
       <workItem from="1639032593114" duration="914000" />
       <workItem from="1639215590655" duration="7000" />
       <workItem from="1640403911993" duration="312000" />
+      <workItem from="1640961782939" duration="343000" />
+      <workItem from="1641044342441" duration="3000" />
+      <workItem from="1641105500888" duration="3000" />
+      <workItem from="1641212303326" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
@@ -386,6 +391,8 @@
     <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="CypressConfigurationType" />
+    <option featureType="com.intellij.configurationType" implementationName="JavaScriptTestRunnerTestCafe" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
   </component>
   <component name="Vcs.Log.History.Properties">
