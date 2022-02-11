@@ -9,6 +9,12 @@ style (especially those that needs to go to backend) and prefer classes rather t
 These are our recommendations, however once in contract, we go with whatever is customers feel comfortable. Our braces formatting is also different that what is seen in books (
 books use it to save pages space but not good for large code enterprise products)
 
+upgrade steps
+1. ncu -u
+2. npm ci
+3. npm start
+
+
 Few Checks:
 
 1. Make sure everything is from the latest angular versions
