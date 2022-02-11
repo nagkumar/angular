@@ -11,9 +11,10 @@ books use it to save pages space but not good for large code enterprise products
 
 upgrade steps
 1. ncu -u
-2. npm ci
+2. npm i
 3. npm start
-
+   
+npm run build:ssr, npm run prerender,npm run serve:ssr, npm run dev:ssr all are working
 
 Few Checks:
 
@@ -55,9 +56,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # github-pages command line syntax
 
 `npm -g i angular-cli-ghpages`
-`ng build --prod --base-href "https://nagkumar.github.io/angular-coffee-shop/`
-`ngh angular-cli-ghpages —-dir=dist/angular-coffee-shop` or  `gh-pages -d build` - gh-pages is still not working Open the browser with
-URL [https://nagkumar.github.io/angular-coffee-shop/](https://nagkumar.github.io/angular-coffee-shop/)
+`ng build --prod --base-href "https://github.com/nagkumar/angular/angular-coffee-shop`
+`ngh angular-cli-ghpages —-dir=dist/angular-coffee-shop` or  `gh-pages -d build` - gh-pages is still not working,  
+Open the browser with URL [https://github.com/nagkumar/angular/angular-coffee-shop](https://nagkumar.github.io/angular-coffee-shop/)
 
 # CleanCode NFRs
 
