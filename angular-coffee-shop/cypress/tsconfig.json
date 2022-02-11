@@ -7,7 +7,7 @@
     "compilerOptions": {
 	"baseUrl": "../node_modules",
 	"sourceMap": true,
-	"target": "es2021",
+	"target": "es2020",
 	"strict": true,
 	"moduleResolution": "node",
 	"types": [
@@ -16,7 +16,7 @@
 	],
 	"lib": [
 	    "dom",
-	    "es2021"
+	    "es2020"
 	]
     },
 }

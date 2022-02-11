@@ -64,7 +64,7 @@
         "@nguniversal/builders": "^13.0.2",
         "@types/express": "^4.17.13",
         "@types/jasmine": "~3.10.3",
-        "@types/node": "^17.0.6",
+        "@types/node": "^17.0.17",
         "@typescript-eslint/eslint-plugin": "5.11.0",
         "@typescript-eslint/parser": "5.11.0",
         "axe-core": "^4.4.1",
@@ -75,7 +75,7 @@
         "har-validator": "^5.1.5",
         "hdr-histogram-percentiles-obj": "^3.0.0",
         "jasmine-core": "~4.0.0",
-        "karma": "~6.3.15",
+        "karma": "~6.3.16",
         "karma-chrome-launcher": "~3.1.0",
         "karma-coverage": "~2.2.0",
         "karma-coverage-istanbul-reporter": "^3.0.3",
@@ -85,5 +85,5 @@
         "webpack": "^5.68.0",
         "webpack-cli": "^4.9.2"
     },
-    "packageManager": "yarn@3.1.1"
+    "peerDependencies": {}
 }
