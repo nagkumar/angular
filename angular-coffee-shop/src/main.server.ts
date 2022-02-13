@@ -14,9 +14,9 @@ import '@angular/localize/init';
 
 import {enableProdMode} from '@angular/core';
 
-import {environment} from './environments/environment';
+import {envt} from './envts/envt';
 
-if (environment.production)
+if (envt.prod)
 {
     enableProdMode();
 }

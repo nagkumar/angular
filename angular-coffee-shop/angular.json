@@ -39,15 +39,15 @@
 			"scripts": []
 		    },
 		    "configurations": {
-			"development": {
+			"dev": {
 			    "sourceMap": true,
 			    "optimization": false
 			},
-			"production": {
+			"prod": {
 			    "fileReplacements": [
 				{
-				    "replace": "src/environments/environment.ts",
-				    "with": "src/environments/environment.prod.ts"
+				    "replace": "src/envts/envt.ts",
+				    "with": "src/envts/envt.prod.ts"
 				}
 			    ],
 			    "optimization": true,
@@ -67,11 +67,11 @@
 			"browserTarget": "angular-coffee-shop:build"
 		    },
 		    "configurations": {
-			"development": {
-			    "browserTarget": "angular-coffee-shop:build:development"
+			"dev": {
+			    "browserTarget": "angular-coffee-shop:build:dev"
 			},
-			"production": {
-			    "browserTarget": "angular-coffee-shop:build:production"
+			"prod": {
+			    "browserTarget": "angular-coffee-shop:build:prod"
 			}
 		    }
 		},
@@ -113,8 +113,8 @@
 			"devServerTarget": "angular-coffee-shop:serve"
 		    },
 		    "configurations": {
-			"production": {
-			    "devServerTarget": "angular-coffee-shop:serve:production"
+			"prod": {
+			    "devServerTarget": "angular-coffee-shop:serve:prod"
 			}
 		    }
 		},
@@ -133,8 +133,8 @@
 			"headless": false
 		    },
 		    "configurations": {
-			"production": {
-			    "devServerTarget": "angular-coffee-shop:serve:production"
+			"prod": {
+			    "devServerTarget": "angular-coffee-shop:serve:prod"
 			}
 		    }
 		},
@@ -146,16 +146,16 @@
 			"tsConfig": "src/tsconfig.server.json"
 		    },
 		    "configurations": {
-			"development": {
+			"dev": {
 			    "optimization": false,
 			    "sourceMap": true
 			},
-			"production": {
+			"prod": {
 			    "outputHashing": "media",
 			    "fileReplacements": [
 				{
-				    "replace": "src/environments/environment.ts",
-				    "with": "src/environments/environment.prod.ts"
+				    "replace": "src/envts/envt.ts",
+				    "with": "src/envts/envt.prod.ts"
 				}
 			    ],
 			    "optimization": true,
@@ -163,21 +163,21 @@
 			    "extractLicenses": true
 			}
 		    },
-		    "defaultConfiguration": "production"
+		    "defaultConfiguration": "prod"
 		},
 		"serve-ssr": {
 		    "builder": "@nguniversal/builders:ssr-dev-server",
 		    "configurations": {
-			"development": {
-			    "browserTarget": "angular-coffee-shop:build:development",
-			    "serverTarget": "angular-coffee-shop:server:development"
+			"dev": {
+			    "browserTarget": "angular-coffee-shop:build:dev",
+			    "serverTarget": "angular-coffee-shop:server:dev"
 			},
-			"production": {
-			    "browserTarget": "angular-coffee-shop:build:production",
-			    "serverTarget": "angular-coffee-shop:server:production"
+			"prod": {
+			    "browserTarget": "angular-coffee-shop:build:prod",
+			    "serverTarget": "angular-coffee-shop:server:prod"
 			}
 		    },
-		    "defaultConfiguration": "development"
+		    "defaultConfiguration": "dev"
 		},
 		"prerender": {
 		    "builder": "@nguniversal/builders:prerender",
@@ -187,16 +187,16 @@
 			]
 		    },
 		    "configurations": {
-			"production": {
-			    "browserTarget": "angular-coffee-shop:build:production",
-			    "serverTarget": "angular-coffee-shop:server:production"
+			"prod": {
+			    "browserTarget": "angular-coffee-shop:build:prod",
+			    "serverTarget": "angular-coffee-shop:server:prod"
 			},
-			"development": {
-			    "browserTarget": "angular-coffee-shop:build:development",
-			    "serverTarget": "angular-coffee-shop:server:development"
+			"dev": {
+			    "browserTarget": "angular-coffee-shop:build:dev",
+			    "serverTarget": "angular-coffee-shop:server:dev"
 			}
 		    },
-		    "defaultConfiguration": "production"
+		    "defaultConfiguration": "prod"
 		}
 	    }
 	}
