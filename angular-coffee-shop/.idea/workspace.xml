@@ -11,12 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/envts/envt.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/envts/envt.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.24" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="C:/temp/angular-tour-of-heroes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -159,10 +154,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Angular JS Debug" />
       <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="Karma.spec.ts" />
       <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="JavaScript Debug.Angular JS Debug" />
     </list>
     <recent_temporary>
       <list>
@@ -389,6 +384,11 @@
       <workItem from="1644564961344" duration="4952000" />
       <workItem from="1644571351601" duration="1860000" />
       <workItem from="1644578976136" duration="1421000" />
+      <workItem from="1644815995092" duration="946000" />
+      <workItem from="1644819183533" duration="102000" />
+      <workItem from="1644819327184" duration="1949000" />
+      <workItem from="1645492744034" duration="593000" />
+      <workItem from="1645493347579" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
