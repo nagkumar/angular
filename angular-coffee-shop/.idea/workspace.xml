@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39311389-3b02-4d08-9e8a-cfd1ba25edac" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/Angular CLI Server.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +93,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="G:\DWork\angular\angular-coffee-shop\node_modules\typescript\lib" />
     <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -116,16 +117,12 @@
       <recent name="G:\DWork\angular-coffee-shop\src\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Karma.KarmaTests (coffee-shop)">
-    <configuration default="true" type="JavaScriptTestRunnerTestCafe">
-      <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="KarmaTests (coffee-shop)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/src/test/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$" />
-      <node-interpreter value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
+      <node-interpreter value="D:/Apps/Dev/langs/scripting/js/Node/16.x/16.14.0/node" />
       <envs />
       <method v="2" />
     </configuration>
@@ -133,13 +130,17 @@
       <config-file value="$PROJECT_DIR$/cypress.json" />
       <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
       <working-directory value="$PROJECT_DIR$" />
-      <node-interpreter value="D:/Apps/Dev/langs/scripting/js/Node/14.x/14.18.1/node" />
+      <node-interpreter value="D:/Apps/Dev/langs/scripting/js/Node/16.x/16.14.0/node" />
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file-path value="$PROJECT_DIR$/cypress/integration/spec.ts" />
       <method v="2" />
     </configuration>
     <configuration name="TestCafe" type="JavaScriptTestRunnerTestCafe">
+      <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerTestCafe">
       <TestCafeRunConfiguration testcafe-browser="chrome" testcafe-live-mode="false" testcafe-headless-mode="false" testcafe-node-modules="" cwd="" customArgs="" />
       <method v="2" />
     </configuration>
@@ -154,10 +155,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Angular JS Debug" />
       <item itemvalue="Karma.KarmaTests (coffee-shop)" />
       <item itemvalue="Karma.spec.ts" />
       <item itemvalue="npm.Angular CLI Server" />
-      <item itemvalue="JavaScript Debug.Angular JS Debug" />
+      <item itemvalue="TestCafe.TestCafe" />
     </list>
     <recent_temporary>
       <list>
@@ -389,6 +391,12 @@
       <workItem from="1644819327184" duration="1949000" />
       <workItem from="1645492744034" duration="593000" />
       <workItem from="1645493347579" duration="648000" />
+      <workItem from="1645501647283" duration="47000" />
+      <workItem from="1645518520733" duration="333000" />
+      <workItem from="1645790628393" duration="1192000" />
+      <workItem from="1645932348848" duration="202000" />
+      <workItem from="1645945598008" duration="11000" />
+      <workItem from="1647505281427" duration="1507000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1635858192842</created>
